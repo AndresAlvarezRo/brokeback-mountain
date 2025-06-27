@@ -10,16 +10,16 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
             <Anchor className="h-8 w-8 text-blue-600" />
-            <span className="text-xl font-bold text-slate-900">Blue Horizon Sailing</span>
+            <span className="text-xl font-bold text-slate-900">Vientos-Franco</span>
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-slate-700 hover:text-blue-600 transition-colors duration-200">Home</a>
-            <a href="#courses" className="text-slate-700 hover:text-blue-600 transition-colors duration-200">Courses</a>
-            <a href="#about" className="text-slate-700 hover:text-blue-600 transition-colors duration-200">About</a>
-            <a href="#contact" className="text-slate-700 hover:text-blue-600 transition-colors duration-200">Contact</a>
+            <a href="#home" className="text-slate-700 hover:text-blue-600 transition-colors duration-200">Inicio</a>
+            <a href="#courses" className="text-slate-700 hover:text-blue-600 transition-colors duration-200">Cursos</a>
+            <a href="#about" className="text-slate-700 hover:text-blue-600 transition-colors duration-200">Nosotros</a>
+            <a href="#contact" className="text-slate-700 hover:text-blue-600 transition-colors duration-200">Contacto</a>
             <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">
-              Book Now
+              Reservá tu lugar
             </button>
           </nav>
 
@@ -34,12 +34,12 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-slate-200">
             <nav className="flex flex-col space-y-4">
-              <a href="#home" className="text-slate-700 hover:text-blue-600 transition-colors duration-200">Home</a>
-              <a href="#courses" className="text-slate-700 hover:text-blue-600 transition-colors duration-200">Courses</a>
-              <a href="#about" className="text-slate-700 hover:text-blue-600 transition-colors duration-200">About</a>
-              <a href="#contact" className="text-slate-700 hover:text-blue-600 transition-colors duration-200">Contact</a>
+              <a href="#home" className="text-slate-700 hover:text-blue-600 transition-colors duration-200">Inicio</a>
+              <a href="#courses" className="text-slate-700 hover:text-blue-600 transition-colors duration-200">Cursos</a>
+              <a href="#about" className="text-slate-700 hover:text-blue-600 transition-colors duration-200">Nosotros</a>
+              <a href="#contact" className="text-slate-700 hover:text-blue-600 transition-colors duration-200">Contacto</a>
               <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200 self-start">
-                Book Now
+                Reservá tu lugar
               </button>
             </nav>
           </div>
