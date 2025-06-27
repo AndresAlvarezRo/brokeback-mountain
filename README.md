@@ -37,8 +37,8 @@ Este repositorio incluye todo lo necesario para construir y ejecutar la aplicaci
 Abre **PowerShell**, **Git Bash** o tu terminal favorita, y ejecuta:
 
 ```bash
-git clone https://github.com/AndresAlvarezRo/sail-boats-initiative.git
-cd sail-boats-initiative
+git clone https://github.com/AndresAlvarezRo/brokeback-mountain.git
+cd brokeback-mountain
 ```
 
 ---
@@ -48,7 +48,7 @@ cd sail-boats-initiative
 Dentro del directorio del proyecto, ejecuta:
 
 ```bash
-docker build -t sail-boats-initiative .
+docker build -t viento-franco:esp .
 ```
 
 Este comando construye la imagen Docker local a partir del `Dockerfile` del proyecto.
@@ -60,7 +60,7 @@ Este comando construye la imagen Docker local a partir del `Dockerfile` del proy
 Ejecuta la aplicación con:
 
 ```bash
-docker run -d -p 48372:80 --name sail-boats-initiative-container sail-boats-initiative
+docker run -d -p 48372:80 --name sail-boats-initiative-container viento-franco:esp
 ```
 
 Esto iniciará el contenedor y expondrá la app en el puerto **48372** de tu máquina.
